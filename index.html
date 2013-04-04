@@ -60,7 +60,7 @@
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="mailto:jim.holmstroem@gmail.com">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -70,6 +70,11 @@
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
+            <div class="alert">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Note!</strong> 
+                Page currently under construction.
+            </div>
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Sidebar</li>
@@ -83,11 +88,32 @@
           </div><!--/.well -->
         </div><!--/span-->
         <div class="span9">
-          <div class="hero-unit">
-            <h1>jim holmström's portfolio</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-          </div>
+            <div class="hero-unit">
+                <div class="row-fluid">
+                    <div class="span9">
+                        <h1>jim holmström's portfolio</h1>
+                        <p>
+                            Jim Holmström is a programmer and a physics student working with machine learning. 
+                            He love abstractions, simplicity and are not affraid of mathematics.
+                        </p>
+                        <p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+                    </div>
+                    <div class="span3">
+                        <div class="thumbnail">
+                            <img alt="Image of Jim Holmström" style="min-width: 200px; width: 200px; min-height: 200px; height: 200px" src="me.jpg">
+                            <div class="caption">
+                                <h3>jim holmström</h3>
+                                <p>physics student, machine learning, perception and cognition</p>
+                                <p>jim.holmstroem@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <section id="software-projects">
+        <div class="page-header">
+        <h1>software projects<small> cherry-picked code</small></h1>
+        </div> 
           <div class="row-fluid">
             <div class="span4">
               <h2>Heading</h2>
@@ -119,7 +145,7 @@
           </div><!--/row-->
         </div><!--/span-->
       </div><!--/row-->
-
+      </section>
       <hr>
 
       <footer>
@@ -131,7 +157,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-alert.js"></script>
     <script src="assets/js/bootstrap-modal.js"></script>
