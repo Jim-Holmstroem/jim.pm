@@ -33,6 +33,10 @@
                 <div class="navtitle">Prototype Homepage</div>
                 <div class="navsub">Prototype of a homepage written in bootstrap</div>
             </a>
+            <a href="http://github.com/Jim-Holmstroem/jim.pm" class="navblock">
+                <div class="navtitle">This Homepage</div>
+                <div class="navsub">This homepage written in PHP and JS</div>
+            </a>
 	    <a href="http://rss.jim.pm" class="navblock">
                 <div class="navtitle">RSS</div>
                 <div class="navsub">My RSS-feed</div>
