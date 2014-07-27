@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>KeyboardWebNavigation</title>
+
+	<link rel="stylesheet" href="../styles/style.css" type="text/css"  />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="../scripts/jquery.highlight.js">
+	</script>
+
+        <script type="text/javascript">
+            jQuery.expr[':'].cicontains = function(a,i,m){ //case insensitive contains
+                 return jQuery(a).text().toUpperCase().indexOf(m[3].toUpperCase())>=0;
+            };
+            //<![CDATA[
+		$(function () {
+                    $(".runnable")
+                        .attr({ title: "Click to run this script" })
+                        .css({ cursor: "pointer"})
+                        .click(function () {
+                                // here be eval!
+                                eval($(this).text());
+                                });
+                    var input = $('input');
+                    var searchable = $('a');
+                    input.hide();
+                    input.val('');
+                    $(document).keydown(function(e){
+                        if(e.which == 191) {
+                            e.preventDefault();
+                            input.toggle();
+                            input.focus();
+                        }
+                    });
+                    $(document).keyup(function(e){
+                        searchable.unhighlight();
+                        searchable.removeClass('theone');
+                        searchable.highlight(input.val(), { caseSensitive: false });
+                        $("a:cicontains('".concat(input.val(),"'):first")).addClass('theone'); //TODO chain it with searchable
+                        document.title = input.val();
+                    });
+                    $(document).keypress(function(e){
+                        if(e.which == 13){ //ENTER
+                            e.preventDefault();
+                            $(".theone").get()[0].click(); //click directly on the DOM-element since jquery is quirky with that
+                            input.hide();
+                            input.val('');
+                        }
+                    });
+		});
+		//]]>
+	</script>
+
+
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#highlighted">highlighted</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#next">Next</a></li>
+        <li><a href="#prev">Prev</a></li>
+    </ul>
+
+    <input type="text" name="searchtextview" value="" style="position: absolute; bottom: 0.2em; right: 0.2em;">
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    margin:0;padding:0;height:100%;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif
+}
+
+div#nav {
+    z-index: 999;
+    padding-top: 100px;  
+    /*background-color: #FF5AB1;*/
+    background-color: #F9F9F9;
+    top: 0;
+    left: 800px;
+    position: absolute;
+    width: 400px;
+}
+
+div#content {
+    float: left;
+    width: 720px;
+    background-color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+div#content a {
+    color: #999;
+}
+
+div.navlink {
+}
+
+a.navblock {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: block;
+    text-decoration: none;
+    /*  background-color: #FFF;*/
+    color: #000;
+}
+
+a.navblock:hover {
+    color: #FFF;
+    background-color: #5AFFB1;
+}
+
+a.homepagelink {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+a.homepagelink:hover {
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+div.navtitle {
+    font-family: Helvetica, Silom, "Arial Black", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.navsub {
+    font-family: Helvetica, "Letter Gothic Std", "Lucidia Console", monospace;
+    font-size: 14px;
+}
+
+div.item {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+div.item h3 {
+    font-size: 25px;
+    font-family: Helvetica, Silom, "Arial Black", sans-serif;
+    font-weight: bold;
+}
+
+h1.title {
+    display: block;
+    font-size: 40px;
+    height: 70px;
+    font-family: Helvetica, Silom, "Arial Black", sans-serif;
+    font-weight: bold;
+    vertical-align: bottom;
+    margin:0;
+    padding:0;
+    padding-top:30px;
+}
+
+div.item a {
+    font-weight: bold;
+}
+
+div#titleblock {
+    position: absolute;
+    z-index: 1000;
+    top: 20px;
+    left: 800px;
+    width: 400px;
+    background-color: #F0F0F0;
+    height:30px;
+    padding: 5px 0px 5px 0px;
+    margin: 0;
+    font-family: Helvetica, "Letter Gothic Std", "Lucidia Console", monospace;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: bolder;
+    text-align: right;
+}

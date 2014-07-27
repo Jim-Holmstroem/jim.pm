@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^url/([^/\.]+)/?$ url/index.php?url=$1 [L]
+
+ErrorDocument 404 /404.html
