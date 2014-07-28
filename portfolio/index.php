@@ -90,6 +90,9 @@
                     <p>
                         Machine learning, graphical models, functional programming, category theory and problem solving.
                     </p>
+
+                    <h4>Complete resume</h4>
+                    <a href="mailto:jimho@kth.se">Get in touch</a>.
                 </div>
             </div>
         </div>
