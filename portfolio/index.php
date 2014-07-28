@@ -57,21 +57,39 @@
                 <img src="classification_example.png" width="750" alt="[classification example]" />
                 <div class="maintext">
                     <p>
-                        Jim Holmstr&ouml;m is a programmer working with
-                        machine learning, examining data to yield patterns
-                        or predictions from it. Jim loves abstractions and are not afraid
-                        of probabilty theory.
+                        I'm a developer and data scientist with a passion
+                        for code modularization and understanding data.
                     </p>
+
+                    <h3>Bio</h3>
+                        <p>
+                            From architecture, model evaluation to execution, each new project presents the opportunity to push limits creatively and technically.
+                            My passion is to enable functional data processing and analysis focusing on what the end product needs as well as test novel ideas.
+                            <a href="mailto:jimho@kth.se">Get in touch</a>.
+                        </p>
+                    <h3>History</h3>
+                        <p>
+                            Soon to graduate from <a href="http://www.kth.se">Royal Institute of Technology</a>, Stockholm
+                            with a <a href="http://www.kth.se/student/kurser/program/CTFYS/HT08/mal?l=en">Bachelor in Engineering Physics</a>
+                            and a <a href="http://www.kth.se/student/kurser/program/TMAIM/?l=en">Master in Machine Learning</a>.
+                            With over two years of professional experience and burning interest for nine, my abilities cover many facets of data analysis, probability theory and software development.
+                            Technical co-founder of the electrical data analysis company Watty.
+                            I am currently living in Stockholm, Sweden.
+                        </p>
+
+                    <h3>Data analysis</h3>
                     <p>
-                        Last summer he was a summer intern at <a href="http://www.ericsson.com">Ericsson</a>
-                        doing clustering and abnormality detection on real-data time series.
+                        Time series, graphical models, probability theory, clustering, prediction.
                     </p>
+                    <h3>Software development</h3>
                     <p>
-                        He is currently studying the
-                        <a href="http://www.kth.se/student/kurser/program/TMAIM/?l=en">
-                        Machine Learning</a> Master's at Royal Institute of
-                        Technology (<a href="http://www.kth.se">KTH</a>), Stockholm.
-                   </p>
+                        Python, Numpy/Pandas, Java, Haskell, C/C++, SQL, NoSQL, algorithms.
+                    </p>
+
+                    <h3>Interests</h3>
+                    <p>
+                        Machine learning, functional programming, category theory and problem solving.
+                    </p>
                 </div>
             </div>
         </div>
