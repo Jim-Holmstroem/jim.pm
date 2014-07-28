@@ -58,16 +58,16 @@
                 <div class="maintext">
                     <p>
                         I'm a developer and data scientist with a passion
-                        for code modularization and understanding data.
+                        for code quality and understanding data.
                     </p>
 
-                    <h3>Bio</h3>
+                    <h4>Bio</h4>
                         <p>
                             From architecture, model evaluation to execution, each new project presents the opportunity to push limits creatively and technically.
                             My passion is to enable functional data processing and analysis focusing on what the end product needs as well as test novel ideas.
                             <a href="mailto:jimho@kth.se">Get in touch</a>.
                         </p>
-                    <h3>History</h3>
+                    <h4>History</h4>
                         <p>
                             Soon to graduate from <a href="http://www.kth.se">Royal Institute of Technology</a>, Stockholm
                             with a <a href="http://www.kth.se/student/kurser/program/CTFYS/HT08/mal?l=en">Bachelor in Engineering Physics</a>
@@ -77,16 +77,16 @@
                             I am currently living in Stockholm, Sweden.
                         </p>
 
-                    <h3>Data analysis</h3>
+                    <h4>Data analysis</h4>
                     <p>
                         Time series, graphical models, probability theory, bayesian statistics, generative models, descriminative models, latent models, clustering, prediction.
                     </p>
-                    <h3>Software development</h3>
+                    <h4>Software development</h4>
                     <p>
                         Python, Numpy/Pandas, Java, Haskell, C/C++, SQL, NoSQL, algorithms.
                     </p>
 
-                    <h3>Interests</h3>
+                    <h4>Interests</h4>
                     <p>
                         Machine learning, graphical models, functional programming, category theory and problem solving.
                     </p>
