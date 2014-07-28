@@ -79,7 +79,7 @@
 
                     <h4>Data analysis</h4>
                     <p>
-                        Time series, graphical models, probability theory, bayesian statistics, generative models, descriminative models, latent models, clustering, prediction.
+                        Time series, graphical models, probability theory, bayesian statistics, generative models, descriminative models, latent models, clustering, prediction and visualizations.
                     </p>
                     <h4>Software development</h4>
                     <p>
