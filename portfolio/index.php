@@ -79,7 +79,7 @@
 
                     <h3>Data analysis</h3>
                     <p>
-                        Time series, graphical models, probability theory, clustering, prediction.
+                        Time series, graphical models, probability theory, bayesian statistics, generative models, descriminative models, latent models, clustering, prediction.
                     </p>
                     <h3>Software development</h3>
                     <p>
@@ -88,7 +88,7 @@
 
                     <h3>Interests</h3>
                     <p>
-                        Machine learning, functional programming, category theory and problem solving.
+                        Machine learning, graphical models, functional programming, category theory and problem solving.
                     </p>
                 </div>
             </div>
