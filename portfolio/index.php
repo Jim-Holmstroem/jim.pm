@@ -83,7 +83,7 @@
                     </p>
                     <h4>Software development</h4>
                     <p>
-                        Python, Numpy/Pandas, Java, Haskell, C/C++, SQL, NoSQL, algorithms.
+                        Python, Numpy/Pandas, Java, Haskell, C/C++, MATLAB, SQL, NoSQL, algorithms.
                     </p>
 
                     <h4>Interests</h4>
