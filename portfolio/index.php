@@ -88,7 +88,7 @@
 
                     <h4>Interests</h4>
                     <p>
-                        Machine learning, graphical models, functional programming, category theory and problem solving.
+                        Machine learning, graphical models, functional programming, mathematics, problem solving and training.
                     </p>
 
                     <h4>Complete resume</h4>
