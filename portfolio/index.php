@@ -72,8 +72,8 @@
                             Soon to graduate from <a href="http://www.kth.se">Royal Institute of Technology</a>, Stockholm
                             with a <a href="http://www.kth.se/student/kurser/program/CTFYS/HT08/mal?l=en">Bachelor in Engineering Physics</a>
                             and a <a href="http://www.kth.se/student/kurser/program/TMAIM/?l=en">Master in Machine Learning</a>.
-                            With over two years of professional experience and burning interest for nine, my abilities cover many facets of data analysis, probability theory and software development.
                             Technical co-founder of the electrical data analysis company Watty.
+                            With over two years of professional experience and burning interest for nine, my abilities cover many facets of data analysis, probability theory and software development.
                             I am currently living in Stockholm, Sweden.
                         </p>
 
